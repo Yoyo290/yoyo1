@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>Demande en mariage</title>
+
+    <style>
+      body {
+        background-image: url("romantic-background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1>Demande en mariage</h1>
+
+    <p>Kady, veux-tu m'épouser?</p>
+
+    <button onclick="demandeEnMariage()">Oui</button>
+
+    <button onclick="refuserDemandeEnMariage()">Non</button>
+
+    <p id="message"></p>
+
+    <script>
+
+      function demandeEnMariage() {
+
+        document.getElementById("message").innerHTML = "Je suis l'homme le plus heureux du monde!";
+
+      }
+
+      function refuserDemandeEnMariage() {
+
+        document.getElementById("message").innerHTML = "Je suis tellement triste...";
+
+      }
+
+    </script>
+
+  </body>
+
+</html>
